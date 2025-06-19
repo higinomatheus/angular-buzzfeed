@@ -1,0 +1,69 @@
+{
+  "title": "Qual super-herói combina com você?",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Qual dessas qualidades mais te define?",
+      "answers": [
+        { "text": "Coragem", "score": { "homem_aranha": 2, "mulher_maravilha": 1 } },
+        { "text": "Inteligência", "score": { "homem_de_ferro": 2, "batman": 1 } },
+        { "text": "Força", "score": { "hulk": 2, "thor": 1 } },
+        { "text": "Justiça", "score": { "superman": 2, "capitao_america": 1 } }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Qual dessas cores você mais gosta?",
+      "answers": [
+        { "text": "Vermelho", "score": { "homem_aranha": 2, "homem_de_ferro": 1 } },
+        { "text": "Verde", "score": { "hulk": 2, "mulher_maravilha": 1 } },
+        { "text": "Azul", "score": { "superman": 2, "capitao_america": 1 } },
+        { "text": "Preto", "score": { "batman": 2, "thor": 1 } }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "O que você faria em uma situação de perigo?",
+      "answers": [
+        { "text": "Salvar os outros primeiro", "score": { "superman": 2, "capitao_america": 1 } },
+        { "text": "Pensar em um plano", "score": { "batman": 2, "homem_de_ferro": 1 } },
+        { "text": "Partir para a ação", "score": { "hulk": 2, "thor": 1 } },
+        { "text": "Ajudar discretamente", "score": { "homem_aranha": 2, "mulher_maravilha": 1 } }
+      ]
+    }
+  ],
+  "results": {
+    "homem_aranha": {
+      "name": "Homem-Aranha",
+      "description": "Você é empático, corajoso e sempre tenta fazer o bem — mesmo quando ninguém está olhando."
+    },
+    "homem_de_ferro": {
+      "name": "Homem de Ferro",
+      "description": "Você é criativo, confiante e adora resolver problemas com tecnologia."
+    },
+    "superman": {
+      "name": "Superman",
+      "description": "Você é um verdadeiro herói. Sempre coloca os outros em primeiro lugar."
+    },
+    "batman": {
+      "name": "Batman",
+      "description": "Você é estrategista, sério e sempre tem um plano na manga."
+    },
+    "hulk": {
+      "name": "Hulk",
+      "description": "Sua força é inegável. Você luta com paixão e intensidade."
+    },
+    "thor": {
+      "name": "Thor",
+      "description": "Você é destemido, leal e dono de uma força impressionante."
+    },
+    "capitao_america": {
+      "name": "Capitão América",
+      "description": "Você é nobre, honesto e sempre luta pelo que é certo."
+    },
+    "mulher_maravilha": {
+      "name": "Mulher-Maravilha",
+      "description": "Você é forte, justa e determinada a proteger os inocentes."
+    }
+  }
+}

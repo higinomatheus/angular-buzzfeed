@@ -4,10 +4,15 @@
 		<h3>{{ title }}</h3>
 	</div>
 	<div class="quiz_questions">
-		<h3>{{ questionSelected?.question ?? "" }}</h3>
+		<h3>{{ questionSelected?.text ?? "" }}</h3>
 	</div>
 	<div class="quiz_options">
-		<button class="btn-option">optionname</button>
+		<button
+			*ngFor="let answer of questionSelected.answers"
+			(click)="selectAnswer(answer)"
+			class="btn-option">
+			{{ answer.text }}
+		</button>
 	</div>
 	<div *ngIf=finished class="quiz_results">
 		<h1>O seu resultado é:</h1>

@@ -5,10 +5,10 @@
       "id": 1,
       "text": "Qual dessas qualidades mais te define?",
       "answers": [
-        { "text": "Coragem", "score": { "homem_aranha": 2, "mulher_maravilha": 1 } },
-        { "text": "Inteligência", "score": { "homem_de_ferro": 2, "batman": 1 } },
-        { "text": "Força", "score": { "hulk": 2, "thor": 1 } },
-        { "text": "Justiça", "score": { "superman": 2, "capitao_america": 1 } }
+        { "text": "Coragem", "score": { "homem_aranha": 3 } },
+        { "text": "Inteligência", "score": { "homem_de_ferro": 3 } },
+        { "text": "Força", "score": { "hulk": 3 } },
+        { "text": "Justiça", "score": { "superman": 3 } }
       ]
     },
     {
@@ -25,10 +25,10 @@
       "id": 3,
       "text": "O que você faria em uma situação de perigo?",
       "answers": [
-        { "text": "Salvar os outros primeiro", "score": { "superman": 2, "capitao_america": 1 } },
-        { "text": "Pensar em um plano", "score": { "batman": 2, "homem_de_ferro": 1 } },
-        { "text": "Partir para a ação", "score": { "hulk": 2, "thor": 1 } },
-        { "text": "Ajudar discretamente", "score": { "homem_aranha": 2, "mulher_maravilha": 1 } }
+        { "text": "Salvar os outros primeiro", "score": { "capitao_america": 3 } },
+        { "text": "Pensar em um plano", "score": { "batman": 3 } },
+        { "text": "Partir para a ação", "score": { "thor": 3 } },
+        { "text": "Ajudar discretamente", "score": { "mulher_maravilha": 3 } }
       ]
     }
   ],
